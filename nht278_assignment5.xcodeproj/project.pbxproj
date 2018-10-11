@@ -3,25 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		A28EF5612167E18E00F0A6AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28EF5602167E18E00F0A6AA /* AppDelegate.swift */; };
-		A28EF5632167E18E00F0A6AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28EF5622167E18E00F0A6AA /* ViewController.swift */; };
 		A28EF5662167E18E00F0A6AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A28EF5642167E18E00F0A6AA /* Main.storyboard */; };
 		A28EF5682167E19100F0A6AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A28EF5672167E19100F0A6AA /* Assets.xcassets */; };
 		A28EF56B2167E19100F0A6AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A28EF5692167E19100F0A6AA /* LaunchScreen.storyboard */; };
+		A28EF5732167E1D700F0A6AA /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28EF5722167E1D700F0A6AA /* Animal.swift */; };
+		A28EF5752167E35700F0A6AA /* AnimalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28EF5742167E35700F0A6AA /* AnimalTableViewController.swift */; };
+		CC719A02216EFC1C00CCCF5D /* AnimalCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC719A01216EFC1C00CCCF5D /* AnimalCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A28EF55D2167E18E00F0A6AA /* nht278_assignment5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nht278_assignment5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A28EF5602167E18E00F0A6AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A28EF5622167E18E00F0A6AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A28EF5652167E18E00F0A6AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A28EF5672167E19100F0A6AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A28EF56A2167E19100F0A6AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A28EF56C2167E19100F0A6AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A28EF5722167E1D700F0A6AA /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		A28EF5742167E35700F0A6AA /* AnimalTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalTableViewController.swift; sourceTree = "<group>"; };
+		CC719A01216EFC1C00CCCF5D /* AnimalCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +58,11 @@
 		A28EF55F2167E18E00F0A6AA /* nht278_assignment5 */ = {
 			isa = PBXGroup;
 			children = (
+				A28EF5742167E35700F0A6AA /* AnimalTableViewController.swift */,
 				A28EF5602167E18E00F0A6AA /* AppDelegate.swift */,
-				A28EF5622167E18E00F0A6AA /* ViewController.swift */,
 				A28EF5642167E18E00F0A6AA /* Main.storyboard */,
+				CC719A01216EFC1C00CCCF5D /* AnimalCollectionViewController.swift */,
+				A28EF5722167E1D700F0A6AA /* Animal.swift */,
 				A28EF5672167E19100F0A6AA /* Assets.xcassets */,
 				A28EF5692167E19100F0A6AA /* LaunchScreen.storyboard */,
 				A28EF56C2167E19100F0A6AA /* Info.plist */,
@@ -96,11 +102,12 @@
 				TargetAttributes = {
 					A28EF55C2167E18E00F0A6AA = {
 						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
 			buildConfigurationList = A28EF5582167E18E00F0A6AA /* Build configuration list for PBXProject "nht278_assignment5" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -135,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A28EF5632167E18E00F0A6AA /* ViewController.swift in Sources */,
+				A28EF5752167E35700F0A6AA /* AnimalTableViewController.swift in Sources */,
+				CC719A02216EFC1C00CCCF5D /* AnimalCollectionViewController.swift in Sources */,
 				A28EF5612167E18E00F0A6AA /* AppDelegate.swift in Sources */,
+				A28EF5732167E1D700F0A6AA /* Animal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,10 +292,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LJMP5GX9EB;
 				INFOPLIST_FILE = nht278_assignment5/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "NancyTran.nht278-assignment5";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -301,10 +308,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LJMP5GX9EB;
 				INFOPLIST_FILE = nht278_assignment5/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "NancyTran.nht278-assignment5";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
