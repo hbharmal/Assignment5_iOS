@@ -13,6 +13,7 @@
 		A28EF56B2167E19100F0A6AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A28EF5692167E19100F0A6AA /* LaunchScreen.storyboard */; };
 		A28EF5732167E1D700F0A6AA /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28EF5722167E1D700F0A6AA /* Animal.swift */; };
 		A28EF5752167E35700F0A6AA /* AnimalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28EF5742167E35700F0A6AA /* AnimalTableViewController.swift */; };
+		CC4B91BF21703655004112BE /* GalleryItemPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC4B91BE21703654004112BE /* GalleryItemPlist.plist */; };
 		CC719A02216EFC1C00CCCF5D /* AnimalCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC719A01216EFC1C00CCCF5D /* AnimalCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		A28EF56C2167E19100F0A6AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A28EF5722167E1D700F0A6AA /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
 		A28EF5742167E35700F0A6AA /* AnimalTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalTableViewController.swift; sourceTree = "<group>"; };
+		CC4B91BE21703654004112BE /* GalleryItemPlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GalleryItemPlist.plist; sourceTree = "<group>"; };
 		CC719A01216EFC1C00CCCF5D /* AnimalCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,6 +67,7 @@
 				A28EF5722167E1D700F0A6AA /* Animal.swift */,
 				A28EF5672167E19100F0A6AA /* Assets.xcassets */,
 				A28EF5692167E19100F0A6AA /* LaunchScreen.storyboard */,
+				CC4B91BE21703654004112BE /* GalleryItemPlist.plist */,
 				A28EF56C2167E19100F0A6AA /* Info.plist */,
 			);
 			path = nht278_assignment5;
@@ -132,6 +135,7 @@
 				A28EF56B2167E19100F0A6AA /* LaunchScreen.storyboard in Resources */,
 				A28EF5682167E19100F0A6AA /* Assets.xcassets in Resources */,
 				A28EF5662167E18E00F0A6AA /* Main.storyboard in Resources */,
+				CC4B91BF21703655004112BE /* GalleryItemPlist.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
