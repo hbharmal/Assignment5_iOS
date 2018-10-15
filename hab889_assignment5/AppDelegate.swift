@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  nht278_assignment5
+//  hab889_assignment5
 //
-//  Created by Nancy Tran on 10/5/18.
+//  Created by Hussain Bharmal on 10/5/18.
 //  Copyright © 2018 cs329e. All rights reserved.
 //
 

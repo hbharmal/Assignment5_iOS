@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A28EF55D2167E18E00F0A6AA /* nht278_assignment5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nht278_assignment5.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A28EF55D2167E18E00F0A6AA /* hab889_assignment5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hab889_assignment5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A28EF5602167E18E00F0A6AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A28EF5652167E18E00F0A6AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A28EF5672167E19100F0A6AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		A28EF5542167E18E00F0A6AA = {
 			isa = PBXGroup;
 			children = (
-				A28EF55F2167E18E00F0A6AA /* nht278_assignment5 */,
+				A28EF55F2167E18E00F0A6AA /* hab889_assignment5 */,
 				A28EF55E2167E18E00F0A6AA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +54,12 @@
 		A28EF55E2167E18E00F0A6AA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A28EF55D2167E18E00F0A6AA /* nht278_assignment5.app */,
+				A28EF55D2167E18E00F0A6AA /* hab889_assignment5.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A28EF55F2167E18E00F0A6AA /* nht278_assignment5 */ = {
+		A28EF55F2167E18E00F0A6AA /* hab889_assignment5 */ = {
 			isa = PBXGroup;
 			children = (
 				A28EF5742167E35700F0A6AA /* AnimalTableViewController.swift */,
@@ -73,15 +73,15 @@
 				A28EF56C2167E19100F0A6AA /* Info.plist */,
 				CC948DE521716AF800D35216 /* AnimalCollectionViewCell.swift */,
 			);
-			path = nht278_assignment5;
+			path = hab889_assignment5;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A28EF55C2167E18E00F0A6AA /* nht278_assignment5 */ = {
+		A28EF55C2167E18E00F0A6AA /* hab889_assignment5 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A28EF56F2167E19100F0A6AA /* Build configuration list for PBXNativeTarget "nht278_assignment5" */;
+			buildConfigurationList = A28EF56F2167E19100F0A6AA /* Build configuration list for PBXNativeTarget "hab889_assignment5" */;
 			buildPhases = (
 				A28EF5592167E18E00F0A6AA /* Sources */,
 				A28EF55A2167E18E00F0A6AA /* Frameworks */,
@@ -91,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = nht278_assignment5;
+			name = hab889_assignment5;
 			productName = nht278_assignment5;
-			productReference = A28EF55D2167E18E00F0A6AA /* nht278_assignment5.app */;
+			productReference = A28EF55D2167E18E00F0A6AA /* hab889_assignment5.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -112,7 +112,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A28EF5582167E18E00F0A6AA /* Build configuration list for PBXProject "nht278_assignment5" */;
+			buildConfigurationList = A28EF5582167E18E00F0A6AA /* Build configuration list for PBXProject "hab889_assignment5" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -125,7 +125,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A28EF55C2167E18E00F0A6AA /* nht278_assignment5 */,
+				A28EF55C2167E18E00F0A6AA /* hab889_assignment5 */,
 			);
 		};
 /* End PBXProject section */
@@ -302,7 +302,7 @@
 				INFOPLIST_FILE = nht278_assignment5/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "NancyTran.nht278-assignment5";
+				PRODUCT_BUNDLE_IDENTIFIER = cs329e.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -318,7 +318,7 @@
 				INFOPLIST_FILE = nht278_assignment5/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "NancyTran.nht278-assignment5";
+				PRODUCT_BUNDLE_IDENTIFIER = cs329e.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -328,7 +328,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A28EF5582167E18E00F0A6AA /* Build configuration list for PBXProject "nht278_assignment5" */ = {
+		A28EF5582167E18E00F0A6AA /* Build configuration list for PBXProject "hab889_assignment5" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A28EF56D2167E19100F0A6AA /* Debug */,
@@ -337,7 +337,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A28EF56F2167E19100F0A6AA /* Build configuration list for PBXNativeTarget "nht278_assignment5" */ = {
+		A28EF56F2167E19100F0A6AA /* Build configuration list for PBXNativeTarget "hab889_assignment5" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A28EF5702167E19100F0A6AA /* Debug */,
