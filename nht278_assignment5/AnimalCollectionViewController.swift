@@ -20,6 +20,8 @@ class GalleryItem {
     
 }
 
+var items: [GalleryItem] = []
+
 private let reuseIdentifier = "Cell"
 
 class AnimalCollectionViewController: UICollectionViewController {
@@ -31,9 +33,6 @@ class AnimalCollectionViewController: UICollectionViewController {
         let path = Bundle.main.path(forResource: "GalleryItemPlist", ofType: "plist")
         let dict = NSArray(contentsOfFile: path!)
         
-        var items: [GalleryItem] = []
-        
-        
         for i in 0..<dict!.count {
             let line = dict![i] as! NSDictionary
             let image = line.allKeys[0] as! String
@@ -41,7 +40,12 @@ class AnimalCollectionViewController: UICollectionViewController {
             items.append(GalleryItem(image: image, caption: caption))
         }
         
-        dump(items)
+        collectionView?.dataSource = self
+        collectionView?.delegate = self
+        
+        navigationItem.backBarButtonItem?.title = "Animals"
+        
+        // collectionView?.register(UINib.init(nibName: "AnimalCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "AnimalCollectionViewCell")
         
         // UIImage(named: "green-square-Retina") <----to get an image from the assets.xcassets file with named as the image
         
@@ -80,14 +84,13 @@ class AnimalCollectionViewController: UICollectionViewController {
     
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of items
-        return 4
+        return items.count
     }
     
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath)
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "AnimalCollectionViewCell", for: indexPath) as! AnimalCollectionViewCell
         
-        
-        
+        cell.configure(with: items[indexPath.row])
         return cell
     }
     
@@ -108,7 +111,7 @@ class AnimalCollectionViewController: UICollectionViewController {
         case UICollectionElementKindSectionHeader:
             
             let headerView = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: "SectionHeader", for: indexPath)
-            let headerLabel = UILabel(frame: CGRect(x: 110, y: 0, width: collectionView.bounds.size.width, height: collectionView.bounds.size.height) )
+            let headerLabel = UILabel(frame: CGRect(x: 110, y: 15, width: collectionView.bounds.size.width, height: collectionView.bounds.size.height) )
             headerLabel.font = UIFont(name: "Verdana", size: 20)
             headerLabel.text = "Pictures of Giraffes"
             headerLabel.sizeToFit()
@@ -119,7 +122,7 @@ class AnimalCollectionViewController: UICollectionViewController {
             
         case UICollectionElementKindSectionFooter:
             let footerView = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: "SectionFooter", for: indexPath)
-            let footerLabel = UILabel(frame: CGRect(x: 132, y: 0, width: collectionView.bounds.size.width, height: collectionView.bounds.size.height) )
+            let footerLabel = UILabel(frame: CGRect(x: 132, y: 15, width: collectionView.bounds.size.width, height: collectionView.bounds.size.height) )
             footerLabel.font = UIFont(name: "Verdana", size: 20)
             footerLabel.text = "Super Cute :) "
             footerLabel.sizeToFit()
